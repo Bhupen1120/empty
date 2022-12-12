@@ -37,7 +37,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/webapp:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/javaapp:latest
           
     - name: Setup kubectl
       uses: actions-hub/kubectl@master
