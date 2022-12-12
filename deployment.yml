@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: santhoshmail2u/javaapp:latest
+        image: bhupen1120/javaapp:latest
         ports:
         - containerPort: 8080
 ---
